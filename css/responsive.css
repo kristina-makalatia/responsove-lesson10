@@ -1,0 +1,30 @@
+@media (max-width:1100px) {
+    .container-header {
+        padding:50px 15px 0 15px;
+    }
+}
+@media (max-width:1127px) {
+    .box-wraper {
+        justify-content: center;
+    }
+}
+@media (max-width:756px) {
+    .small-box:nth-child(4),
+    .small-box:nth-child(5),
+    .small-box:nth-child(6) {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width:560px) {
+    .header-title {
+        font-size:50px;
+    }
+}
+@media (max-width:480px) {
+    .navigtion {
+        display: none;
+    }
+    .burger-icon {
+        display:block;
+    }
+}
